@@ -122,7 +122,7 @@ class Home extends Component {
                 {
                     serverStatus === 200 ?
                     <Layout>
-                    <Header>hola</Header>
+                    <Header></Header>
                     <Content >
                         <BackGround onClick={this.prueba}>
                             {
@@ -160,8 +160,8 @@ class Home extends Component {
                     <Footer>Footer</Footer>
                     </Layout>
                     :
-                    <>
-                    System error, please recharge the page
+                    <>                  
+                        System error, please reload the page
                     </>        
                 }
                 </>
