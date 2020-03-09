@@ -50,7 +50,7 @@ const SelectTypeOfChange = (props) => {
                 </Button>
               </Dropdown> 
               <ContainerButton>
-                 <Button onClick={quitFilters}>Quit Filters</Button>
+                 <Button onClick={quitFilters}>Remove filters</Button>
               </ContainerButton>
             </ColContainer>
             <ColContainer {...size}>
